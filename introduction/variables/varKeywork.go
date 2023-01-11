@@ -19,4 +19,8 @@ func main() {
 	var y = 40
 
 	fmt.Println(y)
+	
+	// when only var is used without int. then the variable is given a zero value.
+	var z int
+
 }
