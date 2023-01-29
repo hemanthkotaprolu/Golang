@@ -15,5 +15,8 @@ func main() {
     var y2 string
     var z2 bool
 
+    fmt.Println(x2)
+    fmt.Println(y2)
+    fmt.Println(z2)
     
 }
