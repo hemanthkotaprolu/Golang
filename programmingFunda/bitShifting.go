@@ -14,4 +14,11 @@ func main() {
     fmt.Printf("%d\t\t%b", y, y)
     fmt.Println()
     
+    kb := 1024
+    mb := kb * 1024
+    gb := mb * 1024
+
+    fmt.Printf("%d\t\t\t%b\n", kb, kb)
+    fmt.Printf("%d\t\t\t%b\n", mb, mb)
+    fmt.Printf("%d\t\t\t%b\n", gb, gb)
 }
