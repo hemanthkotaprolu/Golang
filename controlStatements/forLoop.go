@@ -16,4 +16,11 @@ func main() {
         fmt.Println(x)
         x++
     }
+
+    // use break statement to exit the loop
+    // use continue to go to next iteration without executing the next lines of code in the loop
+
+    for i := 33; i <= 122; i++ {
+        fmt.Printf("%v\t%#U\n", i, i)
+    }
 }
