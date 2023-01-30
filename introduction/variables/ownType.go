@@ -6,9 +6,8 @@ import "fmt"
 // type <name> <primitive-type>
 type hotdog int
 
-
 var b hotdog
 
 func main() {
-    fmt.Println("Hello!!")
+	fmt.Println("Hello!!")
 }
