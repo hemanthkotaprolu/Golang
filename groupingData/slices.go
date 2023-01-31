@@ -19,4 +19,12 @@ func main() {
     // slicing a slice
     y := x[1:4]
     fmt.Println(y)
+
+    // append a slice
+    z := append(x, x...)
+
+    fmt.Println(len(z))
+    a := make([]int, 5, 10)
+    fmt.Println(a)
+    fmt.Println(cap(a))
 }
