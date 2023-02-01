@@ -1,3 +1,3 @@
 # Golang
 
-This tutorial is maintained while following the course `Learn How To Code: Google's Go(golang) Programming Language`
+This tutorial is maintained while following the course `Learn How To Code: Google's Go(golang) Programming Language` by `Todd McLeod`
