@@ -3,15 +3,14 @@ package main
 import "fmt"
 
 func main() {
-    foo()
-    bar()
+	foo()
+	bar()
 }
 
 func foo() {
-    fmt.Println("foo")
+	fmt.Println("foo")
 }
 
 func bar() {
-    fmt.Println("bar")
+	fmt.Println("bar")
 }
-
