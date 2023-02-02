@@ -3,39 +3,38 @@ package main
 import "fmt"
 
 func main() {
-    m := map[string]int{
-        "James": 32,
-        "Miss Moneypenny":27,
-    }
-    fmt.Println(m)
+	m := map[string]int{
+		"James":           32,
+		"Miss Moneypenny": 27,
+	}
+	fmt.Println(m)
 
-    v, ok := m["barnabas"]
-    
-    fmt.Println(v)
-    
-    fmt.Println(ok)
+	v, ok := m["barnabas"]
 
-    // add something to the map
+	fmt.Println(v)
 
-    m["todd"] = 33
+	fmt.Println(ok)
 
-    if v, ok := m["todd"]; ok {
-        fmt.Println("the age of todd is: ", v)
-    } else {
-        fmt.Println("no element")
-    }
-    
-   // var a map[string]int
-   a := make(map[string]int)
+	// add something to the map
 
-   a["a"] = 25
-    
-    fmt.Println(a["a"])
+	m["todd"] = 33
 
+	if v, ok := m["todd"]; ok {
+		fmt.Println("the age of todd is: ", v)
+	} else {
+		fmt.Println("no element")
+	}
 
-    fmt.Println(len(m))
+	// var a map[string]int
+	a := make(map[string]int)
 
-    fmt.Println("*************************")
-    delete(m, "James")
-    fmt.Println(len(m))
+	a["a"] = 25
+
+	fmt.Println(a["a"])
+
+	fmt.Println(len(m))
+
+	fmt.Println("*************************")
+	delete(m, "James")
+	fmt.Println(len(m))
 }

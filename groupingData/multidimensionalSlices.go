@@ -4,9 +4,8 @@ import "fmt"
 
 func main() {
 
-    var x [2][2]int
+	var x [2][2]int
 
-   fmt.Println(x[0][0]) 
-   
+	fmt.Println(x[0][0])
 
 }
