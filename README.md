@@ -4,5 +4,6 @@ This tutorial is maintained while following the course `Learn How To Code: Googl
 
 ## `Contents`
 `chapter - 1` - Introduction
+
 `chapter - 2` - variables
 
