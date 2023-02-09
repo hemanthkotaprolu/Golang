@@ -24,7 +24,7 @@ func main() {
 		},
 		ltk: true,
 	}
-    
+
 	sa2 := secretAgent{
 
 		person: person{
@@ -36,5 +36,5 @@ func main() {
 
 	fmt.Println(sa1)
 	sa1.speak()
-    sa2.speak()
+	sa2.speak()
 }

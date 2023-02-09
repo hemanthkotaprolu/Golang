@@ -21,12 +21,12 @@ func (p person) speak() {
 }
 
 type human interface {
-    speak()
+	speak()
 }
 
-func bar(h human)  {
-    fmt.Println("I was passed into bar", h)
-    
+func bar(h human) {
+	fmt.Println("I was passed into bar", h)
+
 }
 
 func main() {
@@ -37,7 +37,7 @@ func main() {
 		},
 		ltk: true,
 	}
-    
+
 	sa2 := secretAgent{
 
 		person: person{
@@ -47,18 +47,18 @@ func main() {
 		ltk: true,
 	}
 
-    p1 := person {
-        first: "Dr.",
-        last: "Yes",
-    }
+	p1 := person{
+		first: "Dr.",
+		last:  "Yes",
+	}
 
 	fmt.Println(sa1)
 	sa1.speak()
-    sa2.speak()
+	sa2.speak()
 
-    fmt.Println(p1)
+	fmt.Println(p1)
 
-    bar(sa1)
-    bar(sa2)
-    bar(p1)
+	bar(sa1)
+	bar(sa2)
+	bar(p1)
 }
