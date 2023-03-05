@@ -53,10 +53,10 @@ func main() {
 	}
 
 	fmt.Println(sa1)
-	sa1.speak()
-	sa2.speak()
+    fmt.Println(p1)
 
-	fmt.Println(p1)
+//	sa1.speak()
+//	sa2.speak()
 
 	bar(sa1)
 	bar(sa2)
